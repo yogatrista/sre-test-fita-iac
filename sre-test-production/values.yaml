@@ -17,6 +17,13 @@ service:
   port: 3000
   targetPort: 3000
 
+env:
+  username: postgres
+  password: postgres-password
+  database: postgres
+  host: '34.128.86.197'
+  port: '5432'
+
 imagePullSecrets:
   - name: my-registry-secret
 nameOverride: ""
