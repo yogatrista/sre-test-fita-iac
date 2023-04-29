@@ -15,6 +15,7 @@ image:
 service:
   type: LoadBalancer
   port: 80
+  targetPort: 3000
 
 imagePullSecrets:
   - name: my-registry-secret
